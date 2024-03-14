@@ -15,7 +15,7 @@ import com.score.basetest.BaseTest;
 import com.score.pages.SearchPage;
 import com.score.pages.WelcomePage;
 
-public class WelcomePageTest extends BaseTest {
+public class Welcome_SearchPageTest extends BaseTest {
     
     WelcomePage welcomePage;
     SearchPage searchPage;
