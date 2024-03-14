@@ -15,7 +15,6 @@ public class BaseTest {
     public void launchApp() throws MalformedURLException {
         System.out.println("before method");
         AppFactory.launchApp();
-        //base.AppiumServer.start();
     }
 
     @AfterMethod
@@ -23,8 +22,6 @@ public class BaseTest {
         if(result.getStatus() == ITestResult.FAILURE){
             Util.getScreenshot(result.getTestName());
         }
-        //AppDriver.getCurrentDriver().quit();
-        //base.AppiumServer.stop();
     }
 
     @BeforeSuite

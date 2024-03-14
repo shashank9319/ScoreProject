@@ -2,7 +2,7 @@ package com.score.base;
 
 public class AppData {
     public static String platform = System.getProperty("platform", "android");
- // Android Application capabilities
+ // Android Application capabilities 
     public static String  androidAppPackage = "com.fivemobile.thescore";
     public static String  androidPlatformName = "Android";
     public static String  androidPlatformVersion = "11.0";

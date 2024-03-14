@@ -8,7 +8,7 @@
     
   <test name="ScoreAppAssignment">
     <classes>
-      <class name="com.score.tests.WelcomePageTest"/>
+      <class name="com.score.tests.Welcome_SearchPageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
